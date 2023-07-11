@@ -19,7 +19,7 @@ To start off, let's run the test suite with the `learn` command. Our code is
 currently failing all of the tests, but we expected that because we haven't done
 anything yet. Let's get to work!
 
-### `currentUser`
+### `currentUser` 
 
 The first test is telling us that `currentUser` is not defined. Let's go to
 `index.js` and write the following code:
@@ -40,14 +40,14 @@ Rerun the tests and you should see that the first one is passing.
 
 The next failing test is similarly helpful, telling us exactly what we have to
 fix: `welcomeMessage contains "Welcome to Flatbook, "`.
+const currentUser = 'Grace Hopper';
 
+const welcomeMessage = 'Welcome to Flatbook, '
 Let's return to `index.js` and define our second variable below where we
 declared `currentUser`:
 
 ```js
-const currentUser = 'Grace Hopper';
-
-const welcomeMessage = 'Welcome to Flatbook, ';
+;
 ```
 
 Rerun the tests; you should see a second passing test.
